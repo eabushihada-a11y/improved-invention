@@ -1,0 +1,112 @@
+body {
+background-color: #f4f7fb;
+color: #102040;
+font-family: Arial, sans-serif;
+text-align: center;
+margin: 0;
+}
+/* Header style */
+.header {
+background-color: #3157c9;
+color: white;
+padding: 25px;
+}
+.header h1 {
+font-size: 36px;
+}
+.header a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+/* General section style */
+.section {
+background-color: white;
+padding: 30px;
+margin: 15px;
+border: 1px solid #d9e2f3;
+border-radius: 12px;
+}
+/* Hero section */
+.hero img {
+width: 150px;
+border-radius: 50%;
+}
+.hero h2 {
+font-size: 30px;
+color: #102040;
+}
+.hero h3 {
+color: #3157c9;
+}
+#skills {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #eef2f7;
+    border-radius: 6px;
+    font-size: 16px;
+    max-width: 200px;
+}#projects {
+    background-color: #ffffff;
+}
+
+.project-item {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: #fafbfc;
+}
+
+.project-item a {
+    color: #3157c9;
+    font-size: 14px;
+    text-decoration: none;
+}#contact {
+    background-color: #ffffff;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    background-color: #3157c9;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+}
